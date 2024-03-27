@@ -1,0 +1,65 @@
+G:\יד\זילברברג\lesson_2\Tasks\obj\Debug\netcoreapp3.1\שיעור 2.csprojAssemblyReference.cache
+G:\יד\זילברברג\lesson_2\Tasks\obj\Debug\netcoreapp3.1\שיעור 2.AssemblyInfoInputs.cache
+G:\יד\זילברברג\lesson_2\Tasks\obj\Debug\netcoreapp3.1\שיעור 2.AssemblyInfo.cs
+G:\יד\זילברברג\lesson_2\Tasks\obj\Debug\netcoreapp3.1\שיעור 2.csproj.CoreCompileInputs.cache
+G:\יד\זילברברג\lesson_2\Tasks\obj\Debug\netcoreapp3.1\שיעור 2.MvcApplicationPartsAssemblyInfo.cache
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\appsettings.Development.json
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\appsettings.json
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\שיעור 2.exe
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\שיעור 2.deps.json
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\שיעור 2.runtimeconfig.json
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\שיעור 2.runtimeconfig.dev.json
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\שיעור 2.dll
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\שיעור 2.pdb
+G:\יד\זילברברג\lesson_2\Tasks\obj\Debug\netcoreapp3.1\שיעור 2.RazorTargetAssemblyInfo.cache
+G:\יד\זילברברג\lesson_2\Tasks\obj\Debug\netcoreapp3.1\staticwebassets\שיעור 2.StaticWebAssets.Manifest.cache
+G:\יד\זילברברג\lesson_2\Tasks\obj\Debug\netcoreapp3.1\staticwebassets\שיעור 2.StaticWebAssets.xml
+G:\יד\זילברברג\lesson_2\Tasks\obj\Debug\netcoreapp3.1\שיעור 2.dll
+G:\יד\זילברברג\lesson_2\Tasks\obj\Debug\netcoreapp3.1\שיעור 2.pdb
+G:\יד\זילברברג\lesson_2\Tasks\obj\Debug\netcoreapp3.1\שיעור 2.genruntimeconfig.cache
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.dll
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\יד\זילברברג\lesson_2\Tasks\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\יד\זילברברג\lesson_2\Tasks\obj\Debug\netcoreapp3.1\שיעור 2.MvcApplicationPartsAssemblyInfo.cs
+G:\יד\זילברברג\lesson_2\Tasks\obj\Debug\netcoreapp3.1\שיעור 2.csproj.CopyComplete
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\appsettings.Development.json
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\appsettings.json
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\שיעור 2.StaticWebAssets.xml
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\שיעור 2.exe
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\שיעור 2.deps.json
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\שיעור 2.runtimeconfig.json
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\שיעור 2.runtimeconfig.dev.json
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\שיעור 2.dll
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\שיעור 2.pdb
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.dll
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\שיעור 2.csproj.AssemblyReference.cache
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\שיעור 2.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\שיעור 2.AssemblyInfoInputs.cache
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\שיעור 2.AssemblyInfo.cs
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\שיעור 2.csproj.CoreCompileInputs.cache
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\שיעור 2.MvcApplicationPartsAssemblyInfo.cs
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\שיעור 2.MvcApplicationPartsAssemblyInfo.cache
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\שיעור 2.RazorTargetAssemblyInfo.cache
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\staticwebassets\שיעור 2.StaticWebAssets.Manifest.cache
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\staticwebassets\שיעור 2.StaticWebAssets.Pack.cache
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.שיעור 2.Microsoft.AspNetCore.StaticWebAssets.props
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.שיעור 2.props
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.שיעור 2.props
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.שיעור 2.props
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\שיעור 2.csproj.CopyComplete
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\שיעור 2.dll
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\שיעור 2.pdb
+Z:\B\שמואל שרה\זילברברג\שיעור 2\------2-main\obj\Debug\netcoreapp3.1\שיעור 2.genruntimeconfig.cache
