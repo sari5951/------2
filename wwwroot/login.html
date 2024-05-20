@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Tasks Project</title>
+        <link rel="stylesheet" href="./css/login.css" />
+
+    </head>
+    <body>
+        <h1>Login</h1>
+        <form id="login-from" action="javascript:void(0);" method="POST" onsubmit="Login()">
+            <div>
+                <label for="name">name</label>
+                <input type="text" id="name" name="name" />
+            </div>
+            <div>
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" />
+            </div>
+            <button type="submit" id="login-button">login</button>
+        </form>
+        <a asp-area="Identity" asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Context.Request.Path" class="nav-link text-dark">Login with Google</a>
+<br><br>
+        <!-- <meta
+            name="google-signin-client_id"
+            content="934342721509-40q6kqi9pvbvmhdp1sio3hj5ln96u2gu.apps.googleusercontent.com"
+        /> -->
+        <!-- <div class="g-signin2" data-onsuccess="onSignIn">enter with google</div> -->
+
+        <!-- <div class="postman-run-button"
+data-postman-action="collection/fork"
+data-postman-visibility="public"
+data-postman-var-1="31345335-b005d7af-e5e4-46f8-92ab-dee644178b42"
+data-postman-collection-url="entityId=31345335-b005d7af-e5e4-46f8-92ab-dee644178b42&entityType=collection&workspaceId=b49d81eb-cd20-436b-8471-2b619165aac7"></div>
+<script type="text/javascript">
+  (function (p,o,s,t,m,a,n) {
+    !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
+    !o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild((
+      (n = o.createElement("script")),
+      (n.id = s+t), (n.async = 1), (n.src = m), n
+    ));
+  }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
+</script> -->
+
+
+        <div
+            class="postman-run-button"
+            data-postman-action="collection/fork"
+            data-postman-visibility="public"
+            data-postman-var-1="31345335-b005d7af-e5e4-46f8-92ab-dee644178b42"
+            data-postman-collection-url="entityId=31345335-b005d7af-e5e4-46f8-92ab-dee644178b42&entityType=collection&workspaceId=b49d81eb-cd20-436b-8471-2b619165aac7"
+        ></div>
+
+        <script type="text/javascript">
+            (function (p, o, s, t, m, a, n) {
+                !p[s] &&
+                    (p[s] = function () {
+                        (p[t] || (p[t] = [])).push(arguments);
+                    });
+                !o.getElementById(s + t) &&
+                    o
+                    .getElementsByTagName("head")[0]
+                    .appendChild(((n = o.createElement("script")), (n.id = s + t), (n.async = 1), (n.src = m), n));
+            })(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js");
+        </script>
+
+        <script src="./js/login.js" asp-append-version="true"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Tasks Project</title>
+    <link rel="stylesheet" href="./css/login.css" />
+     
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="login-form" action="javascript:void(0);" method="POST" onsubmit="Login()">
+            <div>
+                <label for="name">name</label>
+                <input type="text" id="name" name="name" />
+            </div>
+            <div>
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" />
+            </div>
+            <button type="submit">login</button>
+        </form>
+        <a class="nav-link" asp-area="Identity" asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Context.Request.Path">Login with Google</a>
+    </div>
+    <div class="postman-run-button"
+        data-postman-action="collection/fork"
+        data-postman-visibility="public"
+        data-postman-var-1="31345335-b005d7af-e5e4-46f8-92ab-dee644178b42"
+        data-postman-collection-url="entityId=31345335-b005d7af-e5e4-46f8-92ab-dee644178b42&entityType=collection&workspaceId=b49d81eb-cd20-436b-8471-2b619165aac7">
+    </div>
+    <script src="./js/login.js" asp-append-version="true"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+</html> -->

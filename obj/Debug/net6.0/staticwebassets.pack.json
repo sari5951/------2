@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\css\\user.css",
+      "PackagePath": "staticwebassets\\css\\user.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\js\\user.js",
+      "PackagePath": "staticwebassets\\js\\user.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\user.html",
+      "PackagePath": "staticwebassets\\user.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.tasks.props",
+      "PackagePath": "build\\tasks.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.tasks.props",
+      "PackagePath": "buildMultiTargeting\\tasks.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.tasks.props",
+      "PackagePath": "buildTransitive\\tasks.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.tasks.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
