@@ -3,7 +3,7 @@
 // using Microsoft.OpenApi.Models;
 // using project.Services;
 // using Microsoft.AspNetCore.Authentication.JwtBearer;
-// using Microsoft.AspNetCore.Authentication.Google;
+
 
 // var builder = WebApplication.CreateBuilder(args);
 
@@ -87,14 +87,9 @@
 // app.UseStaticFiles();
 // /*js (remove "launchUrl" from Properties\launchSettings.json*/
 // // builder.Services.AddAuthentication()
-// //     .AddGoogle(options =>
-// //     {
-// //         options.ClientId = "640571382877-7i7sdendsk9omjkghvh7gkd3va2oqu3l.apps.googleusercontent.com";
-// //         options.ClientSecret = "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";
-// //     });
+// //   
 //     builder.Services.AddAuthentication(options =>
 // {
-//     options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
 // })
 // .AddGoogle(options =>
 // {
@@ -104,7 +99,6 @@
 
 
 // app.UseAuthentication();
-// app.UseAuthorization();
 
 // app.MapControllers();
 
@@ -116,7 +110,6 @@ using project;
 using Microsoft.OpenApi.Models;
 using project.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-// using Microsoft.AspNetCore.Authentication.Google;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -131,12 +124,7 @@ builder.Services.AddLogin();
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;})
-//     .AddGoogle(options =>
-//     {
-//        options.ClientId = "640571382877-7i7sdendsk9omjkghvh7gkd3va2oqu3l.apps.googleusercontent.com";
-//        options.ClientSecret = "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";
-//     }
-// )
+
 .AddJwtBearer(cfg =>
 {
     cfg.RequireHttpsMetadata = false;
@@ -198,12 +186,7 @@ app.UseHttpsRedirection();
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
-// builder.Services.AddAuthentication()
-//     .AddGoogle(options =>
-//     {
-//        options.ClientId = "640571382877-7i7sdendsk9omjkghvh7gkd3va2oqu3l.apps.googleusercontent.com";
-//        options.ClientSecret = "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";
-//     });
+
 
 app.UseAuthentication();
 app.UseAuthorization();
