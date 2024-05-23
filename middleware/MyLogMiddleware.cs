@@ -23,7 +23,7 @@ namespace project
             {
                 string createText = $"{c.Request.Path}.{c.Request.Method} took {sw.ElapsedMilliseconds}ms. dateTime{dateTime}"
                 + $" User: {c.User?.FindFirst("userId")?.Value ?? "unknown"}" + Environment.NewLine;
-                File.AppendAllText(path, createText);
+                // File.AppendAllText(path, createText);
             }
         }
     }   

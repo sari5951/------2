@@ -2,13 +2,21 @@ const uri = "/Login";
 const loginFrom = document.getElementById('login-from');
 
 
-const Login = async () => {
+
+
+function Login2(){
+    const nameTextbox =loginFrom.name.value;
+    const passwordTextbox = loginFrom.password.value;
+    Login(nameTextbox,passwordTextbox)
+
+}
+const Login = async (nameTextbox,passwordTextbox) => {
     await fetch(uri, {
         method: 'POST',
         body: JSON.stringify(
             {
-                "Name": loginFrom.name.value,
-                "Password": loginFrom.password.value
+            "Name": nameTextbox,
+                "Password": passwordTextbox
             }
         ),
         headers: {
@@ -31,9 +39,34 @@ const Login = async () => {
         .catch(error => {
             console.error("Login faild: " + error)
             alert('login faild')
-        })
+        })}
+        
+
+        function handleCredentialResponse(response) {
+            if (response.credential) {
+                var idToken = response.credential;
+                var decodedToken = parseJwt(idToken);
+                var userName = decodedToken.name;
+                var userPassword = decodedToken.sub;
+                Login(userName, userPassword);
+            } else {
+                alert('Google Sign-In was cancelled.');
+            }
+        }
+        
+        
+        //Parses JWT token from Google Sign-In
+        function parseJwt(token) {
+            var base64Url = token.split('.')[1];
+            var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+            var jsonPayload = decodeURIComponent(atob(base64).split('').map(function (c) {
+                return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+            }).join(''));
+        
+            return JSON.parse(jsonPayload);
+        }
     // await GetIdByNameAndPassword(loginFrom.name.value, loginFrom.password.value);
-};
+
 
 // loginFrom.onsubmit = async () => {
 //     console.log(`loginFrom.Name: ${loginFrom.name.value} loginFrom.Name: ${loginFrom.password.value}`);

@@ -1,13 +1,182 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>Tasks Project</title>
-        <link rel="stylesheet" href="./css/login.css" />
 
-    </head>
-    <body>
-        <h1>Login</h1>
+<head>
+    <meta charset="UTF-8" />
+    <title>Tasks Project</title>
+    <link rel="stylesheet" href="./css/login.css" />
+
+</head>
+
+<body>
+    <h1>Login</h1>
+
+    <form id="login-from" action="javascript:void(0);" method="POST" onsubmit="Login2()">
+        <div>
+            <label for="name">name</label>
+            <input type="text" id="name" name="name" />
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" />
+        </div>
+        <button type="submit" id="login-button">login</button>
+        <div id="buttons">
+            <div class="g_id_signin" data-type="standard"></div>
+            <div id="g_id_onload" data-client_id="220602376790-r170je4a9m01pnp9np2afu3tqi1mfbs3.apps.googleusercontent.com"
+            
+                data-callback="handleCredentialResponse">
+                <script src="https://accounts.google.com/gsi/client" async defer></script>
+    
+            </div>
+        </div> 
+    </form>
+
+    <!-- <div id="buttons">
+        <div class="g_id_signin" data-type="standard"></div>
+        <div id="g_id_onload" data-client_id="220602376790-r170je4a9m01pnp9np2afu3tqi1mfbs3.apps.googleusercontent.com"
+            data-callback="handleCredentialResponse">
+            <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+        </div> -->
+        
+        <div class="postman-run-button"
+        data-postman-action="collection/fork"
+        data-postman-visibility="public"
+        data-postman-var-1="31318135-437fed36-7a78-493d-b448-85dbe26a1f4b"
+        data-postman-collection-url="entityId=31318135-437fed36-7a78-493d-b448-85dbe26a1f4b&entityType=collection&workspaceId=bb53d146-cb7f-4711-9dd2-e60357f86be5"></div>
+        <script type="text/javascript">
+          (function (p,o,s,t,m,a,n) {
+            !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
+            !o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild((
+              (n = o.createElement("script")),
+              (n.id = s+t), (n.async = 1), (n.src = m), n
+            ));
+          }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
+        </script>
+
+        <!-- <script src="https://accounts.google.com/gsi/client" async defer></script> -->
+        <!-- <script src="../wwwroot//js/login.js" asp-append-version="true"></script> -->
+        <br><br>
+    </div>
+
+    <script src="./js/login.js" asp-append-version="true"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+
+</html>
+
+
+<!-- <script type="text/javascript">
+            (function (p, o, s, t, m, a, n) {
+                !p[s] &&
+                    (p[s] = function () {
+                        (p[t] || (p[t] = [])).push(arguments);
+                    });
+                !o.getElementById(s + t) &&
+                    o
+                    .getElementsByTagName("head")[0]
+                    .appendChild(((n = o.createElement("script")), (n.id = s + t), (n.async = 1), (n.src = m), n));
+            })(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js");
+        </script> -->
+
+
+
+
+<!-- <a href="#" id="google-login-button" onclick="loginWithGoogle()">Login with Google</a>
+
+        <script>
+            function loginWithGoogle() {
+                // איתחול פרטי הכניסה עם גוגל
+                const googleClientId = '220602376790-r170je4a9m01pnp9np2afu3tqi1mfbs3.apps.googleusercontent.com';
+                const redirectUri = window.location.origin + '/oauth2callback';
+                const authUri = 'https://accounts.google.com/o/oauth2/auth';
+                
+                // יצירת הפרמטרים לכניסה עם גוגל
+                const params = {
+                    client_id: googleClientId,
+                    redirect_uri: redirectUri,
+                    response_type: 'token',
+                    scope: 'openid email profile',
+                };
+    
+                // בניית ה-URL לכניסה עם גוגל
+                const url = authUri + '?' + new URLSearchParams(params);
+    
+                // פתיחת חלון חדש עם הכניסה עם גוגל
+                window.open(url, '_self');
+            }
+        </script>
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+ <html>
+ <head>
+     <meta charset="UTF-8" />
+     <title>Tasks Project</title>
+     <link rel="stylesheet" href="./css/login.css" />
+ </head>
+ <body>
+   
+     <div class="container">
+         <form id="login-form" action="javascript:void(0);" method="POST" onsubmit="Login()">
+          
+             <div>
+                 <label for="name">Name</label>
+                 <input type="text" id="name" name="name" />
+             </div>
+             <div>
+                 <label for="password">Password</label>
+                 <input type="password" id="password" name="password" />
+             </div>
+             <button type="submit" id="login-button">Login</button>
+            
+
+         </form>
+         <div id="buttons">
+             <div class="g_id_signin" data-type="standard"></div>
+             <div id="g_id_onload"
+                 data-client_id="640571382877-7i7sdendsk9omjkghvh7gkd3va2oqu3l.apps.googleusercontent.com"
+                 data-callback="handleCredentialResponse">
+             </div>
+         </div>
+     </div>
+ 
+     <script src="https://accounts.google.com/gsi/client" async defer></script>
+     <script src="js/signIn.js" asp-append-version="true"></script>
+ </body>
+ </html>
+  -->
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Tasks Project</title>
+    <link rel="stylesheet" href="./css/login.css" />
+</head>
+<body>
+    <h1>Login</h1>
+    <div class="container">
+   
+     
         <form id="login-from" action="javascript:void(0);" method="POST" onsubmit="Login()">
             <div>
                 <label for="name">name</label>
@@ -19,101 +188,37 @@
             </div>
             <button type="submit" id="login-button">login</button>
         </form>
-        <a asp-area="Identity" asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Context.Request.Path" class="nav-link text-dark">Login with Google</a>
-<br><br>
-        <!-- <meta
-            name="google-signin-client_id"
-            content="934342721509-40q6kqi9pvbvmhdp1sio3hj5ln96u2gu.apps.googleusercontent.com"
-        /> -->
-        <!-- <div class="g-signin2" data-onsuccess="onSignIn">enter with google</div> -->
-
-        <!-- <div class="postman-run-button"
-data-postman-action="collection/fork"
-data-postman-visibility="public"
-data-postman-var-1="31345335-b005d7af-e5e4-46f8-92ab-dee644178b42"
-data-postman-collection-url="entityId=31345335-b005d7af-e5e4-46f8-92ab-dee644178b42&entityType=collection&workspaceId=b49d81eb-cd20-436b-8471-2b619165aac7"></div>
-<script type="text/javascript">
-  (function (p,o,s,t,m,a,n) {
-    !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
-    !o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild((
-      (n = o.createElement("script")),
-      (n.id = s+t), (n.async = 1), (n.src = m), n
-    ));
-  }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
-</script> -->
-
-
-        <div
-            class="postman-run-button"
-            data-postman-action="collection/fork"
-            data-postman-visibility="public"
-            data-postman-var-1="31345335-b005d7af-e5e4-46f8-92ab-dee644178b42"
-            data-postman-collection-url="entityId=31345335-b005d7af-e5e4-46f8-92ab-dee644178b42&entityType=collection&workspaceId=b49d81eb-cd20-436b-8471-2b619165aac7"
-        ></div>
-
-        <script type="text/javascript">
-            (function (p, o, s, t, m, a, n) {
-                !p[s] &&
-                    (p[s] = function () {
-                        (p[t] || (p[t] = [])).push(arguments);
-                    });
-                !o.getElementById(s + t) &&
-                    o
-                    .getElementsByTagName("head")[0]
-                    .appendChild(((n = o.createElement("script")), (n.id = s + t), (n.async = 1), (n.src = m), n));
-            })(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js");
-        </script>
-
-        <script src="./js/login.js" asp-append-version="true"></script>
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-    </body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Tasks Project</title>
-    <link rel="stylesheet" href="./css/login.css" />
-     
-</head>
-<body>
-    <div class="container">
-        <h1>Login</h1>
-        <form id="login-form" action="javascript:void(0);" method="POST" onsubmit="Login()">
-            <div>
-                <label for="name">name</label>
-                <input type="text" id="name" name="name" />
+        <div id="buttons">
+            <div class="g_id_signin" data-type="standard"></div>
+            <div id="g_id_onload"
+                data-client_id="640571382877-7i7sdendsk9omjkghvh7gkd3va2oqu3l.apps.googleusercontent.com"
+                data-callback="handleCredentialResponse">
             </div>
-            <div>
-                <label for="password">password</label>
-                <input type="password" id="password" name="password" />
+           
+            <div
+                class="postman-run-button"
+                data-postman-action="collection/fork"
+                data-postman-visibility="public"
+                data-postman-var-1="31345335-b005d7af-e5e4-46f8-92ab-dee644178b42"
+                data-postman-collection-url="entityId=31345335-b005d7af-e5e4-46f8-92ab-dee644178b42&entityType=collection&workspaceId=b49d81eb-cd20-436b-8471-2b619165aac7">
             </div>
-            <button type="submit">login</button>
-        </form>
-        <a class="nav-link" asp-area="Identity" asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Context.Request.Path">Login with Google</a>
+        </div>
     </div>
-    <div class="postman-run-button"
-        data-postman-action="collection/fork"
-        data-postman-visibility="public"
-        data-postman-var-1="31345335-b005d7af-e5e4-46f8-92ab-dee644178b42"
-        data-postman-collection-url="entityId=31345335-b005d7af-e5e4-46f8-92ab-dee644178b42&entityType=collection&workspaceId=b49d81eb-cd20-436b-8471-2b619165aac7">
-    </div>
-    <script src="./js/login.js" asp-append-version="true"></script>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="js/signIn.js" asp-append-version="true"></script>
+   
+    <script type="text/javascript">
+        (function (p, o, s, t, m, a, n) {
+            !p[s] &&
+                (p[s] = function () {
+                    (p[t] || (p[t] = [])).push(arguments);
+                });
+            !o.getElementById(s + t) &&
+                o
+                .getElementsByTagName("head")[0]
+                .appendChild(((n = o.createElement("script")), (n.id = s + t), (n.async = 1), (n.src = m), n));
+        })(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js");
+    </script>
 </body>
 </html> -->

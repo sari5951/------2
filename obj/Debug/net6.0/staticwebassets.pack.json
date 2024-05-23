@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\avigail.html",
+      "PackagePath": "staticwebassets\\avigail.html"
+    },
+    {
       "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
@@ -31,6 +35,10 @@
     {
       "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\login.html",
       "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\oauth2callback.html",
+      "PackagePath": "staticwebassets\\oauth2callback.html"
     },
     {
       "Id": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\user.html",

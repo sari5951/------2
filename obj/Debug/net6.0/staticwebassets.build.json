@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YPUelAHWnvf/Nnw7bFgFUtEz8Y5yQuWrSB+z4Ea0ew8=",
+  "Hash": "2utFIzzXJEJhH6KsQL3t8HJJe5v5ipHM3NKL6Am+duU=",
   "Source": "tasks",
   "BasePath": "_content/tasks",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\avigail.html",
+      "SourceId": "tasks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\",
+      "BasePath": "_content/tasks",
+      "RelativePath": "avigail.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\avigail.html"
+    },
     {
       "Identity": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\css\\login.css",
       "SourceId": "tasks",
@@ -167,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\login.html"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\oauth2callback.html",
+      "SourceId": "tasks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\",
+      "BasePath": "_content/tasks",
+      "RelativePath": "oauth2callback.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\oauth2callback.html"
     },
     {
       "Identity": "C:\\Users\\user\\Documents\\לימודים יד\\.net\\final project .net\\שיעור 5\\Tasks\\wwwroot\\user.html",
