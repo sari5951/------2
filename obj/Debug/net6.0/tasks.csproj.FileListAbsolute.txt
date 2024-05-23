@@ -190,3 +190,5 @@ C:\Users\user\Documents\לימודים יד\.net\final project .net\שיעור 5
 C:\Users\user\Documents\לימודים יד\.net\final project .net\שיעור 5\Tasks\bin\Debug\net6.0\Data\taskList.json
 C:\Users\user\Documents\לימודים יד\.net\final project .net\שיעור 5\Tasks\bin\Debug\net6.0\Data\user.json
 C:\Users\user\Documents\לימודים יד\.net\final project .net\שיעור 5\Tasks\obj\Debug\net6.0\tasks.sourcelink.json
+C:\Users\user\Documents\לימודים יד\.net\final project .net\שיעור 5\Tasks\bin\Debug\net6.0\package-lock.json
+C:\Users\user\Documents\לימודים יד\.net\final project .net\שיעור 5\Tasks\bin\Debug\net6.0\package.json
