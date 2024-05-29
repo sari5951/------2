@@ -23,7 +23,7 @@ h1 {
 }
 
 form {
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 form label {
@@ -34,17 +34,17 @@ form label {
 
 form input[type="text"],
 form input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    width: 150%;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
     box-sizing: border-box;
 }
 
 form button[type="submit"] {
-    width: 100%;
-    padding: 10px;
+    width: 150%;
+    padding: 20px;
     background-color: #333;
     color: #e98d8d;
     border: none;
